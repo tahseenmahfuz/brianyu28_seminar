@@ -5,14 +5,14 @@ int main(void)
     int a = 34;
     int b = 50;
 
-    printf("x is %i\n", x);
-    printf("y is %i\n", y);
+    printf("a is %i\n", a);
+    printf("b is %i\n", b);
 
     // swapping...
-    int temp = x;
+    int temp = a;
     a = b;
     b = temp;
 
-    printf("x is now %i\n", x);
-    printf("y is now %i\n", y);
+    printf("a is now %i\n", a);
+    printf("b is now %i\n", b);
 }
